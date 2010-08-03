@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.date = "2010-08-02"
 
   # Gem Details
-  s.name = "CSS Ribbons"
+  s.name = "css3-ribbons"
   s.authors = ["Derek Perez", "Chris Eppstein"]
   s.summary = %q{CSS3 Ribbons for your pages, just like github!}
   s.description = %q{Make pretty, 100% CSS3 ribbons, using compass.}
@@ -14,6 +14,10 @@ Gem::Specification.new do |s|
   # Gem Files
   s.files = %w(README.markdown VERSION)
   s.files += Dir.glob("stylesheets/*.*")
+  s.files += Dir.glob("lib/*.*")
+  s.files += Dir.glob("project/*.*")
+  
+  
   
   # Gem Bookkeeping
   s.has_rdoc = false
