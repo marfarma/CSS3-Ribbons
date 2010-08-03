@@ -11,7 +11,7 @@ to use CSS3 Ribbons, simply include the stylesheet into your Sass/Scss document,
 
 __NOTE:__ your markup should look similar to this:
 
-<pre><div id="ribbon-container"><div id="ribbon"><h2><a href="http://github.com">Fork me on Github!</a></h2></div></div></pre>
+`<div id="ribbon-container"><div id="ribbon"><h2><a href="http://github.com">Fork me on Github!</a></h2></div></div>`
 
 ### OTHER OPTIONS
 
