@@ -23,7 +23,7 @@ The __position__ argument can be one of the follow:
 - bottom-right
 
 ## INSTALLATION
-The CSS3 Ribbons gem is available from (Gemcutter.org)[http://www.gemcutter.org]:
+The CSS3 Ribbons gem is available from [Gemcutter.org](http://www.gemcutter.org):
 
 `gem install css3-ribbons`
 
