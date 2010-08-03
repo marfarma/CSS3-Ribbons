@@ -1,0 +1,71 @@
+// CSS3 Ribbons, 1.0 -- Derek Perez (derek@derekperez.com) / Chris Eppstein (chris@eppsteins.net)
+// inspired by (http://github.com/blog/273-github-ribbons)
+// this plugin was inspired by this blog post:
+// http://unindented.org/articles/2009/10/github-ribbon-using-css-transforms/
+// credit to unindented.org for creating the initial CSS idea.
+
+@import "compass/css3/transform"
+@import "compass/css3/box-shadow"
+@import "compass/css3/text-shadow"
+
+=ribbon-container($position : top-left, $length : 250px)
+  overflow: hidden
+  position: absolute
+  height: ($length / 1.414) * 1.05
+  width: $length / 1.414
+  @if $position == top-left
+    top: 0
+    left: 0
+  @if $position == bottom-left
+    bottom: 0
+    left: 0
+  @if $position == top-right
+    top: 0
+    right: 0
+  @if $position == bottom-right
+    bottom: 0
+    right: 0
+
+=ribbon($selector : ".ribbon", $bg-color : #a00, $position : top-left, $text-color : #fff, $length : 250px)
+  #{$selector}-container
+    +ribbon-container($position, $length)
+  #{$selector}
+    +ribbon-banner($bg-color, $position, $length)
+    a
+      +ribbon-text($bg-color, $text-color, $position)
+
+=ribbon-banner($bg-color : #a00, $position: top-left, $length : 250px)
+  position: absolute
+  background-color: $bg-color
+  +box-shadow(#888, 0, 0, 1em)
+  width: $length
+  @if $position == top-left
+    top: 2em
+    left: -3em
+    +rotate(-45deg) 
+  @if $position == bottom-left
+    bottom: 2em
+    left: -3em
+    +rotate(45deg) 
+  @if $position == top-right
+    top: 2em
+    right: -3em
+    +rotate(45deg)
+  @if $position == bottom-right
+    bottom: 2em
+    right: -3em
+    +rotate(-45deg)
+
+=ribbon-text($bg-color : #a00, $text-color : #fff, $position : top-left)
+  border: 1px solid lighten($bg-color, 20)
+  color: $text-color
+  display: block
+  font: bold 81.25% 'Helvetiva Neue', Helvetica, Arial, sans-serif
+  margin: 0.05em 0 0.075em 0
+  padding: 0.5em 3.5em
+  @if $position == top-left or $position == bottom-left
+    text-align: left
+  @if $position == top-right or $position == bottom-right
+    text-align: right
+  text-decoration: none
+  +text-shadow(#444, 0, 0, 0.5em)
