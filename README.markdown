@@ -1,5 +1,5 @@
 # CSS3 Ribbons Extension for Compass
-by: Derek Perez (derek[at]derekperez[dot]com) / Chris Eppstein (chris[at]eppsteins[dot]net)
+by: Derek Perez (derek[at]derekperez[dot]com) / Chris Eppstein (chris[at]eppsteins[dot]net)<br/>
 Simply awesome and customizable CSS3 Ribbon mixin for compass. [Just like the Github Ribbons!](http://github.com/blog/273-github-ribbons)
 
 ## USAGE
