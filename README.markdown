@@ -3,8 +3,6 @@ by: Derek Perez (derek[at]derekperez[dot]com) / Chris Eppstein (chris[at]eppstei
 
 Simply awesome and customizable CSS3 Ribbon mixin for compass. [Just like the Github Ribbons!](http://github.com/blog/273-github-ribbons)
 
------
-
 ## USAGE
 
 to use CSS3 Ribbons, simply include the stylesheet into your Sass/Scss document, and call the `+ribbon` mixin:
@@ -14,11 +12,13 @@ to use CSS3 Ribbons, simply include the stylesheet into your Sass/Scss document,
 
 __NOTE:__ your markup should look similar to this:
 
-`<div id="ribbon-container">
+`
+<div id="ribbon-container">
   <div id="ribbon">
     <h2><a href="http://github.com">Fork me on Github!</a></h2>
   </div>
-</div>`
+</div>
+`
 
 ### OTHER OPTIONS
 
@@ -33,8 +33,6 @@ The __position__ argument can be one of the follow:
 - top-right
 - bottom-right
 
------
-
 ## INSTALLATION
 
 The CSS3 Ribbons gem is available from (Gemcutter.org)[http://www.gemcutter.org]:
@@ -44,9 +42,6 @@ The CSS3 Ribbons gem is available from (Gemcutter.org)[http://www.gemcutter.org]
 once you've installed the gem, make sure to require it in your compass `config.rb` file, near the top:
 
 `require "css3-buttons"`
-
-
-----
 
 ## CREDITS
 
