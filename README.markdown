@@ -1,6 +1,5 @@
 # CSS3 Ribbons Extension for Compass
 by: Derek Perez (derek[at]derekperez[dot]com) / Chris Eppstein (chris[at]eppsteins[dot]net)
-
 Simply awesome and customizable CSS3 Ribbon mixin for compass. [Just like the Github Ribbons!](http://github.com/blog/273-github-ribbons)
 
 ## USAGE
@@ -12,13 +11,13 @@ to use CSS3 Ribbons, simply include the stylesheet into your Sass/Scss document,
 
 __NOTE:__ your markup should look similar to this:
 
-<code>
+<pre>
 <div id="ribbon-container">
   <div id="ribbon">
     <h2><a href="http://github.com">Fork me on Github!</a></h2>
   </div>
 </div>
-</code>
+</pre>
 
 ### OTHER OPTIONS
 
