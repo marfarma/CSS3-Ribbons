@@ -4,10 +4,10 @@ Simply awesome and customizable CSS3 Ribbon mixin for compass. [Just like the Gi
 
 ## USAGE
 
-to use CSS3 Ribbons, simply include the stylesheet into your Sass/Scss document, and call the `+ribbon` mixin:
+to use CSS3 Ribbons, simply import (`@import "css3-ribbons"`) the stylesheet into your Sass/Scss document, and call the `+ribbon` mixin. (eg: `+ribbon("#ribbon")`)
 
-`@import "css3-ribbons"
-+ribbon("#ribbon")`
+
+
 
 __NOTE:__ your markup should look similar to this:
 
