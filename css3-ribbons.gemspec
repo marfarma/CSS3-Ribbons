@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.files = %w(README.markdown VERSION)
   s.files += Dir.glob("stylesheets/*.*")
   s.files += Dir.glob("lib/*.*")
-  s.files += Dir.glob("project/*.*")
+  s.files += Dir.glob("templates/**/*")
   
   
   
