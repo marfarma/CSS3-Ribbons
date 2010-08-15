@@ -27,9 +27,9 @@ The CSS3 Ribbons gem is available from [Gemcutter.org](http://www.gemcutter.org)
 
 `gem install css3-ribbons`
 
-once you've installed the gem, make sure to require it in your compass `config.rb` file, near the top:
+to install css3-ribbons into your compass project, do the following:
 
-`require "css3-buttons"`
+`compass install css3-ribbons -r css3-ribbons`
 
 ## CREDITS
 inspired by [These Awesome GitHub Ribbons](http://github.com/blog/273-github-ribbons)
